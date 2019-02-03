@@ -1,0 +1,29 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "globals": {
+    "FACTORIES": true,
+    "MASTER_FACTORIES": true,
+    "expect": false,
+    "element": false,
+    "by": false,
+    "context": false,
+    "device": true,
+    "loadApp": true
+  },
+  "rules": {
+    "comma-dangle": [0, "always"],
+    "new-cap": [0],
+    "no-console": [0],
+    "no-await-in-loop": [0],
+    "no-unused-vars": [1, {"vars": "all", "args": "none"}],
+    "prefer-destructuring": [1, {
+      "array": false,
+      "object": true
+    }],
+    "strict": [0]
+  }
+}
